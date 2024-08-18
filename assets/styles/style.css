@@ -1,0 +1,44 @@
+.imgWrapper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 50px;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  color: aquamarine;
+  background-color: black;
+  border-radius: 10px;
+  font-size: 30px;
+  padding: 10px;
+  width: 200px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button:hover {
+  background-color: blueviolet;
+}
+
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  font-size: 70px;
+}
+
+#catImage {
+  z-index: 0;
+}
+
+#catImage2 {
+  z-index: 1;
+  display: none;
+  min-width: 400px;
+}
+
